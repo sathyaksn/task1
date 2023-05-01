@@ -1,0 +1,65 @@
+1.write a blog on difference between HTTP1.1 vs HTTP2?
+
+HTTP STANDS FOR HYPERTEXT TRANSFER PROTOCOL
+
+	It is a protocol used to access the data on the WORLD WIDE WEB (www).
+
+                  HTTP1.1	                      HTTP2
+1)It works on the textual format         1)It works on the binary protocol
+
+
+2)There is head of line blocks all 
+the requests behind it until
+it doesn’t get its all resources.       2)It allows multiplexing so one TCP 
+                                        connection is required for multiple requests
+3)It uses request resource Inlining 
+for use getting multiple pages	
+                                        3)It uses PUSH frame by server that collects all multiple pages
+4)It compresses data by itself
+	                                4)It uses HPACK for data compression
+5)For security : it does not 
+require HTTPS encryption	
+                                        5)It requires HTTPS encryption
+
+6)PERFORMANCE : slower	                6)Significantly faster than HTTP1.1
+
+7)It was created in 1997	        7)It was created in 2015
+
+
+2.WRITE A BLOG ABOUT OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASRIPT?
+
+•	An object is a fundamental concept in Java script 
+•	It representing a collection of properties or a group of key value pairs.
+•	It is a complex data type that can store different types of data, including primitive values and functions.
+•	An object is defined using a literal notation that uses curly braces{}.
+•	Objects in java script are represented as key valve pairs stored in memory.
+•	Each property of object by using a special identifier called a property key.
+•	The values of these property can be any java script value.
+•	When a property is accessed on abject ,java script looks up the property key in the object’s internal store of key value pairs and returns the associated value.
+•	If the property keys is not found ,java script returns undefined.
+•	Objects and their property can be add, remove or replace at anytime.
+
+
+FOR EXAMPLE:
+
+
+ Let car={color: ”brown”,
+        brand:”maruti”};			where color and brand are 
+console.log (car.color);					called KEYS
+console.log (type of car);
+ 
+							where brown and Maruti are
+OUTPUT:							called KEY VALUES	
+	
+	brown			
+	object
+
+
+
+
+
+
+
+
+
+
